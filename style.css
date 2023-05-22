@@ -45,8 +45,10 @@ span {
 }
 
 label {
-  margin-right: 5em;
+  margin-right: 3em;
   transition: all 150ms linear;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 input[type="radio"] {
@@ -61,4 +63,13 @@ input[type="radio"]:checked + label {
   color: #3fa5ff;
   border-bottom: 1px solid #3fa5ff;
   padding-bottom: 5px;
+}
+
+.navbar-contents {
+  margin-top: 20px;
+  transition: all 0.5s linear;
+}
+
+#experiences-content, #educations-content {
+  display: none;
 }
